@@ -1,64 +1,87 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>경진의 과제방</title>
+    <title>경진의 과제룸</title>
     <style>
-        header{
-            background-color: aqua;
-            margin: 0;
-            height: 100px;
-        }
-        table,tr,td{
-            border: 1px solid #ccc;
-            border-collapse: collapse;
-            padding: 10px;
-            margin: 0 auto;
-        }
-        table{
-            margin-top: 100px;
+        * {
+            box-sizing: border-box;
         }
 
+        dl>div {
+            background: #fff;
+            padding: 24px 0 0 0;
+        }
+
+        dt {
+            background-color: #b8c1c8;
+            border-bottom: 1px solid #989ea4;
+            border-top: 1px solid #717d85;
+            color: #fff;
+            font: bold 18px/21px Helvetica, Arial sans-serif;
+            margin: 0;
+            padding: 2px 0 0 12px;
+            position: sticky;
+            top: -1px;
+            height: 57px;
+        }
+
+        dd {
+            font: bold 20px/45px Helvetica, Arial sans-serif;
+            margin: 0;
+            padding: 0 0 0 12px;
+            white-space: nowrap;
+
+        }
+
+        dd+dd {
+            border-top: 1px solid #ccc;
+        }
+
+        a {
+            text-decoration: none;
+        }
     </style>
+
 </head>
+
 <body>
-    <header>
-    <h1>경진의 과제룸</h1>
-    </header>
-    <table>
-        <tr>
-            <td>day01_0716</td>
-            <td><a href="./work/index0716.html">[ 0716 ]</a></td>
-        </tr>
-         <tr>
-            <td>day01_0717</td>
-            <td><a href="./work/index0717.html">[ 0717 ]</a></td>
-        </tr>
-          <tr>
-            <td>day01_0718</td>
-            <td><a href="./work/index0718.html">[ 0718 ]</a></td>
-        </tr>
-         <tr>
-            <td>day01_0721</td>
-            <td><a href="./work/index0721.html">[ 0721 ]</a></td>
-        </tr>
-         <tr>
-            <td>day01_0722</td>
-            <td><a href="./work/index0722.html">[ 0722 ]</a></td>
-        </tr>
-         <tr>
-            <td>day01_0723</td>
-            <td><a href="./work/index0723.html">[ 0723 ]</a></td>
-        </tr>
-         <tr>
-            <td>day01_0724</td>
-            <td><a href=""></a></td>
-        </tr>
-         <tr>
-            <td>day01_0725</td>
-            <td><a href=""></a></td>
-        </tr>
-    </table>
+    <h1>Kyoungzin_Work Room</h1>
+    <dl>
+        <div>
+            <dt>07.M</dt>
+            <dd> <a href="#">07.16.wed_file</a></dd>
+            <dd> <a href="./work/index0717.html"></a>07.17.thu_file </a></dd>
+            <dd> <a href="./work/index0718.html"></a>07.18.fri_file </a></dd>
+            <dd> <a href="./work/index0721.html"></a>07.21.mon_file </a></dd>
+            <dd> <a href="./work/index0722.html"></a>07.22.fri_file </a></dd>
+            <dd> <a href="./work/index0723.html"></a>07.23.fri_file </a></dd>
+            <dd> <a href="#"></a>07.24.fri_file </a></dd>
+        </div>
+        <div>
+            <dt>08.M</dt>
+            <dd> 07.16.wed_file </dd>
+            <dd> 07.17.thu_file </dd>
+            <dd> 07.18.fri_file </dd>
+            <dd> 07.21.mon_file </dd>
+            <dd> 07.22.fri_file </dd>
+            <dd> 07.23.fri_file </dd>
+            <dd> 07.24.fri_file </dd>
+        </div>
+        <div>
+            <dt>09.M</dt>
+            <dd> 07.16.wed_file </dd>
+            <dd> 07.17.thu_file </dd>
+            <dd> 07.18.fri_file </dd>
+            <dd> 07.21.mon_file </dd>
+            <dd> 07.22.fri_file </dd>
+            <dd> 07.23.fri_file </dd>
+            <dd> 07.24.fri_file </dd>
+        </div>
+
+    </dl>
 </body>
+
 </html>
