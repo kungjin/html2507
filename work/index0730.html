@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Special+Gothic+Expanded+One&display=swap"
+        rel="stylesheet">
+    <title>0725 반응형 웹</title>
+    <style>
+        html,
+        body {
+            font-family: 'Noto Sans', sans-serif;
+            margin: 0;
+        }
+
+        .container {
+            margin: 0;
+        }
+
+        .noto-sans-kr-regular {
+            font-family: "Noto Sans KR", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 700;
+            font-style: normal;
+        }
+
+        .noto-sans-regular {
+            font-family: "Noto Sans", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
+            font-variation-settings:
+                "wdth" 100;
+        }
+
+        #logo {
+            font-weight: 900;
+            color: white;
+            padding-left: 20px;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .nv {
+            position: fixed;
+            background-color: black;
+            width: 100%;
+            height: 60px;
+            top: 0;
+
+            display: flex;
+            align-items: center;
+            padding: 0 20px;
+            box-sizing: border-box;
+        }
+
+        .mu_bar{
+            width: 400px;
+            height: fit-content;
+            text-align: center;
+            margin: 0 auto;
+        
+        }
+
+
+        ul {
+            display: inline-flex;
+            padding: 0;
+            margin: 0;
+            height: 20px;
+            width: 350px;
+        }
+
+
+
+        .nv ul li {
+            list-style-type: none;
+            font-weight: 500;
+            margin-left: 40px;
+            color: white;
+            height: 20px;
+
+        }
+        b{
+            color: orangered;
+            font-weight: 2000;
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <div>
+            <nav class="nv">
+                <h3 class="noto-sans-regular" id="logo"> <a href="https://fonts.google.com/noto/specimen/Noto+Sans">
+                        NOTO<b>.</b> </a> </h3>
+                <div class="mu_bar">
+                    <ul>
+                        <li><a href="#" id="mu1">fonts</a></li>
+                        <li><a href="#" id="mu2">stroke</a></li>
+                        <li><a href="#" id="mu3">shape</a></li>
+                        <li><a href="#" id="mu4">family</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="container">
+
+
+    </div>
+
+</body>
+
+</html>
